@@ -1,0 +1,350 @@
+body{
+  background: #050709;
+
+  font-family: 'Inter', sans-serif!important;
+
+}
+.navbar {
+  background-color: #050709;
+  background-image: none;
+  background-repeat: no-repeat;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+ }
+
+ .container{
+   padding: 20px;
+   z-index: -9999!important;
+ }
+
+ h1{
+   margin-top: 40px;
+   color: white;
+   text-align: center;
+   font-size: 70px;
+   font-weight: 550;
+ }
+ h2{
+   color: white;
+ }
+ h3{
+   color: white;
+   text-align: left;
+   font-size: 40px;
+   font-weight: 500;
+   z-index: 99999;
+   position: relative;
+ }
+ h4{
+   color: white;
+ }
+ li{
+   color: white;
+ }
+
+ p{
+
+   color: white;
+   text-align: center;
+   font-size: 18px;
+ }
+ .list{
+   margin-top: 6em;
+   margin-left: 6em;
+
+ }
+ .instructions{
+
+ }
+ .inspara{
+   color: white;
+   text-align: left!important;
+   font-size: 15px;
+ }
+ mark{
+   background-color: #202020;
+   padding: 5px;
+   border-radius: 5px;
+   color: white;
+   font-size: 18px;
+   font-family: Consolas,monaco,monospace;
+
+ }
+ .model{
+
+   -webkit-animation: NAME-YOUR-ANIMATION 5s; /* Safari 5s+ */
+   -moz-animation:    NAME-YOUR-ANIMATION 5s; /* Fx 5+ */
+   -o-animation:      NAME-YOUR-ANIMATION 5s; /* Opera 12+ */
+   animation:         NAME-YOUR-ANIMATION 5s; /* IE 10+, Fx 29+ */
+   animation-fill-mode: forwards;
+   animation-timing-function: linear;
+   margin: auto;
+   z-index: -99!important;
+
+
+ }
+ .modeldiv{
+   -webkit-animation: NAME-YOUR-ANIMATION 5s; /* Safari 5s+ */
+   -moz-animation:    NAME-YOUR-ANIMATION 5s; /* Fx 5+ */
+   -o-animation:      NAME-YOUR-ANIMATION 5s; /* Opera 12+ */
+   animation:         NAME-YOUR-ANIMATION 5s; /* IE 10+, Fx 29+ */
+   animation-fill-mode: forwards;
+   animation-timing-function: linear;
+   z-index: -99!important;
+   margin-top: 30px;
+ }
+
+
+
+ @-webkit-keyframes NAME-YOUR-ANIMATION {
+   0%   { opacity: 0; }
+   100% { opacity: 1; }
+ }
+ @-moz-keyframes NAME-YOUR-ANIMATION {
+   0%   { opacity: 0; }
+   100% { opacity: 1; }
+ }
+ @-o-keyframes NAME-YOUR-ANIMATION {
+   0%   { opacity: 0; }
+   100% { opacity: 1; }
+ }
+ @keyframes NAME-YOUR-ANIMATION {
+   0%   { opacity: 0; }
+   100% { opacity: 1; }
+ }
+
+ .screenshotSection{
+   padding: 30px;
+   margin-top: -100px;
+   z-index: 99;
+ }
+.buyNow{
+  position: fixed;
+   bottom: 50px;
+   right: 60px;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   z-index: 9999999999;
+   font-size: 20px;
+ box-shadow: 0px 0px 23px 0px rgba(255, 255, 255, 0.4);
+-moz-box-shadow: 0px 0px 23px 0px rgba(255, 255, 255, 0.4);
+-webkit-box-shadow: 0px 0px 23px 0px rgba(255, 255, 255, 0.4);
+}
+
+
+
+
+
+
+
+
+ /*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+/* CSS */
+.model{
+  height:1000px;
+}
+.screenshotSection{
+  padding: 155px;
+}
+.fourshots{
+  height: 650px;
+}
+.screenshotSection{
+
+  margin-top: -250px;
+  z-index: 99;
+}
+.buyNow{
+  font-size: 22px;
+  bottom: 80px;
+  right: 120px;
+}
+}
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+/* CSS */.model{
+  height:750px;
+}
+.screenshotSection{
+padding: 140px;
+  margin-top: -140px;
+  z-index: 99;
+}
+.buyNow{
+  font-size: 20px;
+  bottom: 80px;
+  right: 120px;
+}
+
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+/* CSS */.model{
+  height:750px;
+}
+.screenshotSection{
+  padding: 110px;
+  margin-top: -110px;
+  z-index: 99;
+}
+h1{
+  font-size: 55px;
+}
+p{
+  font-size: 16px;
+}
+h3{
+  font-size: 30px;
+}
+.buyNow{
+  font-size: 15px;
+
+}
+}
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+/* CSS */h1{
+  font-size: 55px;
+}
+p{
+  font-size: 16px;
+}
+h3{
+  font-size: 28px;
+}
+.screenshotSection{
+
+  margin-top: -125px;
+  z-index: 99;
+}
+.buyNow{
+  font-size: 15px;
+
+}
+}
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+/* CSS */
+h1{
+  font-size: 50px;
+}
+p{
+  font-size: 14px;
+}
+h3{
+  font-size: 25px;
+}
+.screenshotSection{
+
+  margin-top: -115px;
+  z-index: 99;
+}
+.buyNow{
+  font-size: 15px;
+
+}
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+/* CSS */
+h1{
+  font-size: 40px;
+}
+p{
+  font-size: 12px;
+}
+h3{
+  font-size: 20px;
+}
+.screenshotSection{
+
+  margin-top: -100px;
+  z-index: 99;
+}
+.buyNow{
+  font-size: 15px;
+  bottom: 150;
+  right:40px;
+
+}
+
+}
+
+
+#lab_social_icon_footer {
+
+  background-color: #000;
+}
+
+#lab_social_icon_footer a {
+  color: #c4c4c4;
+}
+
+#lab_social_icon_footer .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#lab_social_icon_footer .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+#lab_social_icon_footer #social-fb:hover {
+  color: #3B5998;
+
+}
+
+#lab_social_icon_footer #social-tw:hover {
+  color: #4099FF;
+}
+
+#lab_social_icon_footer #social-gp:hover {
+  color: #d34836;
+}
+
+#lab_social_icon_footer #social-em:hover {
+  color: #f39c12;
+}
+footer{
+bottom: 0;
+}
+
+.showcase{
+  padding: 20px;
+
+}
+.show{
+  font-size: 40px;;
+}
