@@ -120,14 +120,8 @@ body{
    z-index: 99;
  }
 .buyNow{
-  position: fixed !important;
-   bottom: 50px !important;
-   right: 60px !important;
-   padding: 10px !important;
-   padding-left: 20px !important;
-   padding-right: 20px !important;
-   z-index: 9999999999 !important;
-   font-size: 20px !important;
+
+
  box-shadow: 0px 0px 23px 0px rgba(255, 255, 255, 0.4) !important;
 -moz-box-shadow: 0px 0px 23px 0px rgba(255, 255, 255, 0.4) !important;
 -webkit-box-shadow: 0px 0px 23px 0px rgba(255, 255, 255, 0.4) !important;
@@ -160,11 +154,7 @@ body{
   margin-top: -250px;
   z-index: 99;
 }
-.buyNow{
-  font-size: 22px;
-  bottom: 80px;
-  right: 120px;
-}
+
 }
 /*
   ##Device = Laptops, Desktops
@@ -179,11 +169,7 @@ padding: 140px;
   margin-top: -140px;
   z-index: 99;
 }
-.buyNow{
-  font-size: 20px;
-  bottom: 80px;
-  right: 120px;
-}
+
 
 }
 /*
@@ -208,10 +194,7 @@ p{
 h3{
   font-size: 30px;
 }
-.buyNow{
-  font-size: 15px;
 
-}
 }
 /*
   ##Device = Tablets, Ipads (landscape)
@@ -232,10 +215,7 @@ h3{
   margin-top: -125px;
   z-index: 99;
 }
-.buyNow{
-  font-size: 15px;
 
-}
 }
 /*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -257,10 +237,7 @@ h3{
   margin-top: -115px;
   z-index: 99;
 }
-.buyNow{
-  font-size: 15px;
 
-}
 }
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -281,13 +258,6 @@ h3{
 
   margin-top: -100px;
   z-index: 99;
-}
-.buyNow{
-  font-size: 15px;
-  bottom: 150;
-  right:40px;
-
-
 }
 
 }
@@ -338,11 +308,12 @@ h3{
 #lab_social_icon_footer #social-em:hover {
   color: #0077b5;
 }
-footer{
-bottom: 0;
-}
+
 
 .showcase{
   padding: 20px;
 
+}
+.footertext{
+  font-size: 14px;
 }
